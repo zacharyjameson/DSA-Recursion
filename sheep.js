@@ -21,7 +21,6 @@ const heckinSheep = function (sheep) {
   }
 };
 
-let shep = 3;
-console.log(heckinSheep(shep));
+console.log(heckinSheep(3));
 
 
