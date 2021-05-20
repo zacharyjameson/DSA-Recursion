@@ -15,4 +15,12 @@ This is the Triangular Number Sequence: 1, 3, 6, 10, 15, 21, 28, 36, 45.
 
  */
 
- 
+const nthTriangle = function (n) {
+  if (n === 1) {
+    return 1;
+  }
+  return n + nthTriangle(n - 1);
+};
+
+let n = 7;
+console.log(nthTriangle(n));
