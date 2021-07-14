@@ -22,5 +22,5 @@ const nthTriangle = function (n) {
   return n + nthTriangle(n - 1);
 };
 
-let n = 7;
+let n = 4;
 console.log(nthTriangle(n));
